@@ -1,0 +1,24 @@
+{
+    "name": "@markhowellsmead/conditional-load-fe-script",
+    "version": "1.0.0",
+    "description": "Conditionally load the script in the browser if the condition is met.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markhowellsmead/conditional-load-fe-script.git"
+    },
+    "keywords": [
+        "script",
+        "load",
+        "conditional"
+    ],
+    "author": "Mark Howells-Mead",
+    "license": "GPLv3",
+    "bugs": {
+        "url": "https://github.com/markhowellsmead/conditional-load-fe-script/issues"
+    },
+    "homepage": "https://github.com/markhowellsmead/conditional-load-fe-script#readme"
+}
