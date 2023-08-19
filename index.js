@@ -7,11 +7,11 @@
 
 export const conditionalLoadScript = ({condition = false, min = true, folder = './', version = '1.0.0', filename = 'index'}) => {
     if (!!condition) {
-        const min = min ? '' : '.min';
+        const min_script = min ? '' : '.min';
         let script = document.createElement('script');
         script.setAttribute(
             'src',
-            `${folder}${filename}${min}.js?version=${version}`
+            `${folder}${filename}${min_script}.js?version=${version}`
         );
         document.head.appendChild(script);
     }
